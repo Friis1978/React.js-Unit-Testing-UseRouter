@@ -9,6 +9,8 @@ export function BeautifulHeader() {
     <div>
       <h1>Todo ID: {query.id}</h1>
 
+      <Link href={`/`}>Front page</Link>
+
       <Link href={`/contacts/?id=${query.id}&from=${pathname}`}>
         Contacts Page
       </Link>
